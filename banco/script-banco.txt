@@ -1,0 +1,15 @@
+CREATE DATABASE db_imc;
+
+USE db_imc;
+
+CREATE TABLE tbl_usuario (
+	id int not null auto_increment primary key,
+    email varchar(50) not null,
+    senha varchar(10) not null,
+    nome varchar(100) not null,
+    profissao varchar(100) not null,
+    altura decimal(2,1) not null,
+    data_nascimento date not null,
+    sexo varchar(1) not null,
+    foto varchar(255) null
+);

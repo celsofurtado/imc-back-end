@@ -22,7 +22,7 @@ import br.senai.sp.jandira.imc.model.Usuario;
 import br.senai.sp.jandira.imc.repository.UsuarioRepository;
 
 @RestController
-@RequestMapping("/imc")
+@RequestMapping("/imc/usuario")
 public class UsuarioController {
 	
 	@Autowired
